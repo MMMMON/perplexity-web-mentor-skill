@@ -37,7 +37,8 @@ flowchart TD
 ### Step 2: Browser Subagent Engagement
 1. Invoke or message the `browser` subagent.
 2. Navigate to `https://www.perplexity.ai`.
-3. Confirm active Pro session and model selection (e.g., Opus, Claude 3.5 Sonnet, or Pro Search mode).
+3. Confirm active Pro session and model selection (e.g., Claude Sonnet 5.5, Kimi Thinking, or Best model).
+4. **Strict Constraint - No 'Computer' Mode**: Do NOT click or toggle the 'Computer' mode button under any circumstances. Ensure only standard 'Search' (搜索) or standard model generation is used, keeping 'Computer' completely disabled.
 
 ### Step 3: Query Submission & Await Results
 1. Enter the query into Perplexity's search textarea (`textbox "Ask anything..."` / `textbox "搜索任何内容..."`).
