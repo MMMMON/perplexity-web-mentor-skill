@@ -39,6 +39,7 @@ flowchart TD
 2. Navigate to `https://www.perplexity.ai`.
 3. Confirm active Pro session and model selection (e.g., Claude Sonnet 5.5, Kimi Thinking, or Best model).
 4. **Strict Constraint - No 'Computer' Mode**: Do NOT click or toggle the 'Computer' mode button under any circumstances. Ensure only standard 'Search' (搜索) or standard model generation is used, keeping 'Computer' completely disabled.
+5. **Deep Research Encouraged**: For multi-source technical investigations, ecosystem comparisons, or difficult bug tracing, actively enable and encourage Perplexity's **Deep Research / 研究模式** to harvest comprehensive citations and verified code.
 
 ### Step 3: Query Submission & Await Results
 1. Enter the query into Perplexity's search textarea (`textbox "Ask anything..."` / `textbox "搜索任何内容..."`).
@@ -63,3 +64,4 @@ flowchart TD
 ## Mentor Selection Guideline
 - **Use Gemini Web Mentor**: Complex algorithmic logic, long-context code refactoring, and Google ecosystem projects.
 - **Use Perplexity Web Mentor**: Cutting-edge third-party libraries, live documentation lookups, deep web research, and Claude Opus / multi-model reasoning.
+- **Autonomous Quota Fallback (Pre-Authorized)**: If Claude Sonnet 5.5 or Deep Research quota on Perplexity is exhausted, immediately and autonomously switch to Kimi K3 (Thinking), GPT-6.2 Sol, or Web Gemini Advanced without prompting the user.
