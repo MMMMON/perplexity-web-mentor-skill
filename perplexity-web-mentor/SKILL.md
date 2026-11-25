@@ -37,9 +37,10 @@ flowchart TD
 ### Step 2: Browser Subagent Engagement
 1. Invoke or message the `browser` subagent.
 2. Navigate to `https://www.perplexity.ai`.
-3. Confirm active Pro session and model selection (e.g., Claude Sonnet 5.5, Kimi Thinking, or Best model).
-4. **Strict Constraint - No 'Computer' Mode**: Do NOT click or toggle the 'Computer' mode button under any circumstances. Ensure only standard 'Search' (搜索) or standard model generation is used, keeping 'Computer' completely disabled.
-5. **Deep Research Encouraged**: For multi-source technical investigations, ecosystem comparisons, or difficult bug tracing, actively enable and encourage Perplexity's **Deep Research / 研究模式** to harvest comprehensive citations and verified code.
+3. **Project Categorization (Anti-Clutter)**: Locate or create a dedicated **Project (项目)** in Perplexity's left sidebar matching the local workspace (e.g., `Gemini Antigravity`). Execute all queries and Deep Research within this Project space instead of polluting the root chat list.
+4. Confirm active Pro session and model selection (e.g., Claude Sonnet 5.5, Kimi Thinking, or Best model).
+5. **Strict Constraint - No 'Computer' Mode**: Do NOT click or toggle the 'Computer' mode button under any circumstances. Ensure only standard 'Search' (搜索) or standard model generation is used, keeping 'Computer' completely disabled.
+6. **Deep Research Encouraged**: For multi-source technical investigations, ecosystem comparisons, or difficult bug tracing, actively enable and encourage Perplexity's **Deep Research / 研究模式** to harvest comprehensive citations and verified code.
 
 ### Step 3: Query Submission & Await Results
 1. Enter the query into Perplexity's search textarea (`textbox "Ask anything..."` / `textbox "搜索任何内容..."`).
